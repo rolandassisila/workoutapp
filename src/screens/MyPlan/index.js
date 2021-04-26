@@ -27,6 +27,7 @@ function MyPlanScreen(props) {
                 key={index}
                 title={excersiseType.title}
                 description={excersiseType.exercises.length}
+                additionalInfo={excersiseType.exercises}
               />
             );
           })}

@@ -7,6 +7,7 @@ import {
   Button,
   ButtonImage,
   SecondContainer,
+  ExcerciseContainer,
   Description,
 } from './styles';
 import { IMAGES } from 'constants';
@@ -31,7 +32,17 @@ function CollapsibleContainer(props) {
           ></ButtonImage>
         </Button>
       </TitleContainer>
-      {expanded ? <SecondContainer>{additionalInfo}</SecondContainer> : null}
+      {expanded ? (
+        <SecondContainer>
+          {additionalInfo.map((excersise, index) => {
+            return (
+              <ExcerciseContainer key={index}>
+                <Tilte>{excersise.title}</Tilte>
+              </ExcerciseContainer>
+            );
+          })}
+        </SecondContainer>
+      ) : null}
     </Container>
   );
 }

@@ -34,6 +34,7 @@ const SecondContainer = styled.View`
   padding: 10px;
   padding-top: 0px;
 `;
+const ExcerciseContainer = styled.View``;
 export {
   Container,
   TitleContainer,
@@ -42,4 +43,5 @@ export {
   ButtonImage,
   SecondContainer,
   Description,
+  ExcerciseContainer,
 };
