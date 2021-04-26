@@ -1,0 +1,6 @@
+const NAVIGATORS = {
+  MAIN: 'NAVIGATORS_MAIN',
+  ROOT: 'NAVIGATORS_ROOT',
+};
+
+export default NAVIGATORS;
