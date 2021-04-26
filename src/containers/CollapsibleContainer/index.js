@@ -4,13 +4,14 @@ import {
   Container,
   TitleContainer,
   Tilte,
-  Button,
+  ButtonIcon,
   ButtonImage,
   SecondContainer,
   ExcerciseContainer,
   Description,
 } from './styles';
 import { IMAGES } from 'constants';
+import { Button } from 'components';
 
 function CollapsibleContainer(props) {
   const { title, additionalInfo, description } = props;
@@ -19,18 +20,16 @@ function CollapsibleContainer(props) {
     setExpanded(!expanded);
   };
 
-  const icon = IMAGES.ARROW_DOWN;
-
   return (
     <Container>
       <TitleContainer>
         <Tilte>{title}</Tilte>
         <Description>{description}</Description>
-        <Button onPress={toggle}>
+        <ButtonIcon onPress={toggle}>
           <ButtonImage
             source={expanded ? IMAGES.ARROW_UP : IMAGES.ARROW_DOWN}
           ></ButtonImage>
-        </Button>
+        </ButtonIcon>
       </TitleContainer>
       {expanded ? (
         <SecondContainer>
@@ -41,6 +40,7 @@ function CollapsibleContainer(props) {
               </ExcerciseContainer>
             );
           })}
+          <Button title={'START'} />
         </SecondContainer>
       ) : null}
     </Container>

@@ -6,7 +6,6 @@ const WORKOUT_DATA = [
     duration: '20min',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',
@@ -50,7 +49,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Tuedday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',
@@ -94,7 +92,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Wednesday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',
@@ -138,7 +135,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Thursday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',
@@ -182,7 +178,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Friday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     exercises: [
       { id: 1, title: 'Arm Reach', time: '20s', sets: '2' },
       { id: 2, title: 'Side Reach', time: '20s', sets: '2' },
@@ -199,7 +194,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Saturday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',
@@ -243,7 +237,6 @@ const WORKOUT_DATA = [
     full_weekday: 'Sunday',
     month: 'SEP',
     title: 'Warm Up',
-    no_of_excersises: '6',
     excersises_set: [
       {
         title: 'Warm up',

@@ -20,7 +20,7 @@ const Description = styled(SemiBoldText)`
   font-size: 18px;
 `;
 
-const Button = styled.TouchableOpacity`
+const ButtonIcon = styled.TouchableOpacity`
   color: ${COLORS.GREY};
   font-size: 12px;
 `;
@@ -39,7 +39,7 @@ export {
   Container,
   TitleContainer,
   Tilte,
-  Button,
+  ButtonIcon,
   ButtonImage,
   SecondContainer,
   Description,
